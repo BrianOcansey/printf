@@ -32,7 +32,7 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
 
 		{"%", print_percent},
 
-		{"b", print_binary},
+		{"b", rint_binary},
 
 		{"o", print_octal},
 
